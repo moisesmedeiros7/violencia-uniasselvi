@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Violência Doméstica — Informação, acolhimento e denúncia</title>
+<meta name="description" content="Informação, acolhimento e canais de denúncia para o enfrentamento à violência doméstica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Botão de saída rápida — sempre visível, sempre acessível -->
+<button id="quick-exit" onclick="window.location.href='https://www.google.com'" aria-label="Sair rapidamente deste site">
+  <span class="exit-icon">✕</span> Saída rápida
+</button>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Violência Doméstica
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#entender">Entender</a>
+      <a href="#sinais">Sinais</a>
+      <a href="#ajuda">Canais de ajuda</a>
+      <a href="#rede">Rede de apoio</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <a href="#ajuda" class="nav-cta">Ligue agora!</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Você não está sozinha. Você não está sozinho.</p>
+      <h1>Existe caminho de volta<br>para a segurança.</h1>
+      <p class="hero-sub">Informação clara, acolhimento e canais de denúncia para quem vive, testemunha ou quer entender a violência doméstica — com sigilo e sem julgamento.</p>
+      <div class="hero-actions">
+        <a href="#ajuda" class="btn btn-primary">Ver canais de denúncia</a>
+        <a href="#entender" class="btn btn-ghost">Entender o problema</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="img/apoio.webp" alt="Mãos se apoiando, representando acolhimento e rede de ajuda">
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C 360,90 1080,-10 1440,40 L1440,80 L0,80 Z"></path></svg>
+  </div>
+
+  <!-- O QUE É -->
+  <section id="entender" class="section section-sand">
+    <div class="section-inner">
+      <p class="kicker">Entender</p>
+      <h2>Violência doméstica tem mais de uma face</h2>
+      <p class="section-lead">Nem sempre deixa marca visível. Reconhecer as diferentes formas é o primeiro passo para identificar uma situação de risco — a sua ou de alguém próximo.</p>
+
+      <div class="type-grid">
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><path d="M24 6 L30 18 L42 20 L33 29 L35 41 L24 35 L13 41 L15 29 L6 20 L18 18 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <h3>Física</h3>
+          <p>Qualquer ação que ofenda a integridade ou a saúde corporal.</p>
+        </article>
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="20" r="10" stroke="currentColor" stroke-width="2"/><path d="M14 40 C14 32 34 32 34 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <h3>Psicológica</h3>
+          <p>Humilhação, controle, ameaças e isolamento que causam dano emocional.</p>
+        </article>
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><rect x="10" y="20" width="28" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M17 20 V14 a7 7 0 0 1 14 0 v6" stroke="currentColor" stroke-width="2"/></svg>
+          <h3>Sexual</h3>
+          <p>Constranger a presenciar, manter ou participar de relação sexual não desejada.</p>
+        </article>
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><path d="M8 24 h32 M8 24 c0 -6 4 -10 8 -10 M40 24 c0 -6 -4 -10 -8 -10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="14" r="3" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="14" r="3" stroke="currentColor" stroke-width="2"/></svg>
+          <h3>Econômica</h3>
+          <p>Reter salário, impedir de trabalhar ou controlar todos os recursos financeiros.</p>
+        </article>
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><path d="M24 6 L42 16 V32 C42 40 24 44 24 44 C24 44 6 40 6 32 V16 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <h3>Patrimonial</h3>
+          <p>Destruir, reter ou subtrair bens, documentos ou instrumentos de trabalho.</p>
+        </article>
+        <article class="type-card">
+          <svg class="type-icon" viewBox="0 0 48 48" fill="none"><circle cx="17" cy="13" r="6" stroke="currentColor" stroke-width="2"/><path d="M7 39 c0 -10 6 -14 10 -14 s10 4 10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="34" cy="19" r="4" stroke="currentColor" stroke-width="2"/><path d="M28 39 c0 -7 3 -10 6 -10 s6 3 6 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <h3>Vicária</h3>
+          <p>Atingir a mulher por meio de quem ela ama — filhos, familiares ou animais de estimação — usados como instrumento de sofrimento e controle.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SINAIS -->
+  <section id="sinais" class="section section-teal">
+    <div class="section-inner">
+      <p class="kicker kicker-light">Sinais de alerta</p>
+      <h2 class="light">O que observar</h2>
+      <div class="signals-grid">
+        <ul class="signals-list">
+          <li>Mudanças bruscas de humor, medo ou ansiedade constante</li>
+          <li>Isolamento de amigos, família ou atividades sociais</li>
+          <li>Lesões frequentes com explicações pouco convincentes</li>
+          <li>Falta de acesso a dinheiro ou documentos próprios</li>
+          <li>Parceiro(a) que controla horários, roupas ou celular</li>
+          <li>Crianças que evitam voltar para casa ou demonstram medo de um adulto</li>
+        </ul>
+        <div class="signals-note">
+          <p>Perceber um ou mais desses sinais não é diagnóstico — é um convite à escuta cuidadosa e, se necessário, ao encaminhamento para ajuda especializada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider divider-flip" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C 360,90 1080,-10 1440,40 L1440,80 L0,80 Z"></path></svg>
+  </div>
+
+  <!-- CANAIS DE AJUDA -->
+  <section id="ajuda" class="section section-help">
+    <div class="section-inner">
+      <p class="kicker">Canais de denúncia e ajuda</p>
+      <h2>Ligações gratuitas, sigilosas, 24 horas</h2>
+      <p class="section-lead">Você pode denunciar de forma anônima. O primeiro contato não obriga a nenhuma medida — é para orientar.</p>
+
+      <div class="help-grid">
+        <a href="tel:180" class="help-card help-card-primary">
+          <span class="help-number">180</span>
+          <p class="help-title">Central de Atendimento à Mulher</p>
+          <p class="help-desc">Orientação, denúncia e encaminhamento. Funciona 24h, todos os dias.</p>
+        </a>
+        <a href="tel:190" class="help-card">
+          <span class="help-number">190</span>
+          <p class="help-title">Polícia Militar</p>
+          <p class="help-desc">Emergência em andamento ou risco imediato.</p>
+        </a>
+        <a href="tel:100" class="help-card">
+          <span class="help-number">100</span>
+          <p class="help-title">Disque Direitos Humanos</p>
+          <p class="help-desc">Denúncias envolvendo crianças, adolescentes e idosos.</p>
+        </a>
+        <a href="#rede" class="help-card help-card-local">
+          <span class="help-number help-number-small">CRAS</span>
+          <p class="help-title">Centro de Referência de Assistência Social</p>
+          <p class="help-desc">Atendimento presencial e acompanhamento social na sua região.</p>
+        </a>
+      </div>
+      <p class="help-legal">Amparo legal: Lei nº 11.340/2006 (Lei Maria da Penha).</p>
+    </div>
+  </section>
+
+  <!-- REDE DE APOIO -->
+  <section id="rede" class="section section-sand">
+    <div class="section-inner support-section">
+      <div class="support-photo">
+        <img src="img/atendimento.webp" alt="Grupo de apoio conversando em ambiente acolhedor no CRAS">
+      </div>
+      <div class="support-text">
+        <p class="kicker">Rede de apoio</p>
+        <h2>Ninguém enfrenta isso sozinho</h2>
+        <p>Este projeto nasce de uma parceria entre universidade, órgãos públicos e organizações da sociedade civil, unindo forças para ampliar o acesso à informação e fortalecer a rede de proteção.</p>
+        <ul class="support-list">
+          <li>Encaminhamento para medidas protetivas e acompanhamento jurídico</li>
+          <li>Grupos de escuta e apoio psicossocial</li>
+          <li>Ações educativas sobre igualdade de gênero e não violência</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section section-white">
+    <div class="section-inner">
+      <p class="kicker">Dúvidas frequentes</p>
+      <h2>Perguntas comuns</h2>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>A denúncia pode ser anônima?</summary>
+          <p>Sim. Você pode relatar uma situação sem se identificar. A denúncia anônima já é suficiente para que o caso seja verificado pelos órgãos responsáveis.</p>
+        </details>
+        <details class="faq-item">
+          <summary>O que é uma medida protetiva?</summary>
+          <p>É uma decisão judicial que pode, por exemplo, afastar o agressor do lar ou proibir aproximação e contato com a vítima. Pode ser solicitada pela própria vítima ou por meio da autoridade policial.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Preciso de provas para denunciar?</summary>
+          <p>Não. O relato já inicia o processo de apuração. Registros como mensagens, fotos ou boletins anteriores ajudam, mas não são obrigatórios para buscar ajuda.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como ajudar alguém que suspeito estar em situação de violência?</summary>
+          <p>Ofereça escuta sem julgamento, evite pressionar por decisões imediatas e compartilhe os canais desta página. Em caso de risco iminente, ligue 190.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-help">
+      <p class="footer-kicker">Precisa de ajuda agora?</p>
+      <p class="footer-numbers"><strong>180</strong> Central da Mulher &nbsp;·&nbsp; <strong>190</strong> Polícia &nbsp;·&nbsp; <strong>100</strong> Direitos Humanos</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
