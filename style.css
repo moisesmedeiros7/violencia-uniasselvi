@@ -2,14 +2,14 @@
    TOKENS
    ============================================ */
 :root{
-  --teal-deep:   #161616;
-  --teal-mid:    #3E3E3E;
-  --bg-soft:     #E3E2DD;
-  --sand:        #F8F7F4;
-  --rose:        #161616;
-  --rose-dark:   #000000;
-  --amber:       #ADADA6;
-  --charcoal:    #161616;
+  --teal-deep:   #280050;
+  --teal-mid:    #721ACB;
+  --bg-soft:     #F5F5F5;
+  --sand:        #F6F1FA;
+  --rose:        #721ACB;
+  --rose-dark:   #5A15A0;
+  --amber:       #97D8B2;
+  --charcoal:    #1F1F1F;
   --white:       #FFFFFF;
 
   --font-display: 'Fraunces', serif;
@@ -202,8 +202,8 @@ a{ color: inherit; }
   aspect-ratio: 3 / 2;
   border-radius: var(--radius);
   background:
-    linear-gradient(160deg, rgba(22,22,22,0.85), rgba(62,62,62,0.55)),
-    repeating-linear-gradient(135deg, #d9d9d6 0 12px, #e6e6e3 12px 24px);
+    linear-gradient(160deg, rgba(40,0,80,0.82), rgba(114,26,203,0.5)),
+    repeating-linear-gradient(135deg, #ece1f7 0 12px, #f3ecfa 12px 24px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -372,6 +372,26 @@ h2.light{ color: var(--white); }
   box-shadow: 0 14px 28px rgba(0,0,0,0.3);
   border-color: var(--teal-deep);
 }
+.help-icon{
+  height: 62px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .6rem .85rem;
+  margin: 0 auto 1rem;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.help-icon img{
+  max-height: 100%;
+  max-width: 156px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
 .help-number{
   font-family: var(--font-mono);
   font-size: 2.4rem;
@@ -406,7 +426,7 @@ h2.light{ color: var(--white); }
 .support-photo{
   aspect-ratio: 4/3;
   border-radius: var(--radius);
-  background: repeating-linear-gradient(135deg, #ddddd8 0 12px, #ece9e3 12px 24px);
+  background: repeating-linear-gradient(135deg, #ece1f7 0 12px, #f3ecfa 12px 24px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -476,14 +496,37 @@ h2.light{ color: var(--white); }
   max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-.footer-kicker{
-  font-family: var(--font-mono);
-  font-size: .78rem;
-  text-transform: uppercase;
-  color: var(--amber);
-  margin-bottom: .4em;
+.footer-partners{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.1rem;
 }
-.footer-numbers{ font-size: 1.05rem; margin: 0; }
+.footer-logo{
+  height: 64px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo img{
+  max-height: 100%;
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.35));
+}
+.footer-credit{
+  font-size: .85rem;
+  opacity: .75;
+  max-width: 46ch;
+  margin-bottom: 0;
+}
