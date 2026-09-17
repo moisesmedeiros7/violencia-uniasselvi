@@ -488,9 +488,10 @@ h2.light{ color: var(--white); }
    FOOTER
    ============================================ */
 .site-footer{
-  background: var(--charcoal);
-  color: var(--white);
+  background: var(--white);
+  color: var(--charcoal);
   padding: 2.6rem 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
 }
 .footer-inner{
   max-width: var(--max-width);
@@ -527,6 +528,6 @@ h2.light{ color: var(--white); }
 .footer-credit{
   font-size: .85rem;
   opacity: .75;
-  max-width: 46ch;
+  max-width: 60ch;
   margin-bottom: 0;
 }
