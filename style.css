@@ -520,6 +520,17 @@ h2.light{ color: var(--white); }
   align-items: center;
   justify-content: center;
 }
+.footer-logo a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: opacity .2s ease;
+}
+.footer-logo a:hover,
+.footer-logo a:focus-visible{
+  opacity: .75;
+}
 .footer-logo img{
   max-height: 100%;
   max-width: 150px;
