@@ -99,19 +99,23 @@ a{ color: inherit; }
 }
 .brand{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: .55em;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.15rem;
+  gap: .2em;
   text-decoration: none;
   color: var(--teal-deep);
+  line-height: 1.1;
 }
-.brand-mark{
-  width: 14px; height: 14px;
-  border-radius: 50%;
-  background: var(--amber);
-  display: inline-block;
+.brand-logo{
+  width: 26px;
+  height: auto;
+  display: block;
+}
+.brand-name{
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: .8rem;
+  white-space: nowrap;
 }
 .main-nav{
   display: flex;
